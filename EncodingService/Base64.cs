@@ -88,6 +88,9 @@ namespace EncodingService
             return encode;
         }
 
+        /** @brief  16進位數字組成的字串轉換為Byte[]
+          * @source https://dotblogs.com.tw/stanley14/2016/01/30/143137
+          */
         public byte[] HexToByte(string hexString)
         {
             //運算後的位元組長度:16進位數字字串長/2
